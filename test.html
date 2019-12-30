@@ -1,0 +1,25 @@
+ <script>
+
+var draft = {
+    title: "dd",
+    body: "dd",
+    author: "dd"
+};
+
+  console.log("Making post..." + JSON.stringify(draft));
+
+
+  const options = {   
+    method: 'POST',
+    headers: {
+      "Content-Type": "application/json"
+  },
+    body: JSON.stringify(draft),
+    url: 'http://localhost:4000',
+    mode: 'no-cors'   
+  }
+  console.log("fetching");
+  fetch('http://localhost:4000/api', options).then(() => console.log("fetch worked"));
+
+  console.log(options)
+  </script>
