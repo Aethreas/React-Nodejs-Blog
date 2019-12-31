@@ -1,7 +1,11 @@
-### Focus
+## Focus
 This project was done to learn the basic synax of React.js and test components.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### What I learned
+
+More advanced React and Express functionality, including iterative building of DOM elements from an array, using Fetch to send form data back to a server and reflect that data back to clients, and logic for verifying data to store in a database. 
 
 ## Available Scripts
 
